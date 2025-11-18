@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Maja Borek">
+        <title>index.html</title>
+        <link rel="stylesheet" href="../css/zadania.css">
+        <link rel="stylesheet" href="../css/jednostki.css">
+        <style>
+        body
+        {
+            background-color: rgb(237, 132, 128);
+        }
+        th,td
+        {
+            border: 2px solid;
+            padding: 2px;
+            font-size: 1.25em;
+        }
+        tr
+        {
+            height: 2em;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Jednostki wzgledne<br>(Relatywne)</h1>
+        <p>Ich wielkość jest zależna od innego rozmiaru, np. rozmiaru czcionki rodzica lub wymiarów okna przeglądarki.</p>
+        <h2>Przykłady:</h2>
+        <table>
+            <tr>
+                <th>l.p</th>
+                <th>SYMBOL</th>
+                <th>OPIS</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>%</td>
+                <td>procent</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>em</td>
+                <td>względem rozmiaru czcionki elementu nadrzędnego</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>rem</td>
+                <td>względem rozmiaru czcionki elementu root, czyli elementu html</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>vw</td>
+                <td>1% szerokości okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>vh</td>
+                <td>1% wysokości okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>vmin</td>
+                <td>mniejsza z wartości vw lub vh</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>vmax</td>
+                <td>większa z wartości vw lub vh</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>ex</td>
+                <td>w stosunku do wysokości x bieżącej czcionki (rzadko używane)</td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>ch</td>
+                <td>w stosunku do szerokości „0” (zera)</td>
+            </tr>
+        </table>
+        <table style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: inherit;">
+            <tr style="width: auto;">
+                <td style="text-align: center;"><a href="../index.html">Powrot do<br>strony głównej</a></td>
+                <td style="border: 0; padding: 50px; text-align: center;"> </td>
+                <td style="text-align: center;"><a href="./jednostki_bezwzgledne.html">Jednostki bezwzgledne<br>(absolutne)</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
